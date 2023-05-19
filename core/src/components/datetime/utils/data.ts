@@ -411,9 +411,6 @@ export const getYearColumnData = (
     const maxYear = maxParts?.year ?? year;
     const minYear = minParts?.year ?? year - 100;
 
-    // for (let i = maxYear; i >= minYear; i--) {
-    //   processedYears.push(i);
-    // }
     for (let i = minYear; i <= maxYear; i++) {
       processedYears.push(i);
     }
